@@ -109,15 +109,14 @@ export default function Home() {
               </div>
               <div className="grid gap-1">
               <div className="space-y-3">
-                <div className="youtube-video">
+                <div className="youtube-video aspect-w-16 aspect-h-9">
                   <iframe
-                    width="500"
-                    height="281.25"
+                  className = "w-full"
                     src="https://www.youtube.com/embed/i2_uSYEO2QQ"
+                    height = "275"
                     title="YouTube video player"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen
+                    allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
                   ></iframe>
                 </div>
               </div>
@@ -411,22 +410,18 @@ function UnityLogoIcon(props) {
     <svg
       {...props}
       xmlns="http://www.w3.org/2000/svg"
-      width="12"
-      height="12"
+      width="24"
+      height="24"
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      strokeWidth="0"
+      strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
     >
-      {/* Use the Unity logo image directly */}
-      <Image
-        href="https://media.discordapp.net/attachments/360768769217527809/1190884724630093824/unitylogotransparent.png?ex=65a36cd3&is=6590f7d3&hm=1959bcf94480edf186daffe3c977075ac97caa9bebc98e8a50dd33eb938a151e&=&format=webp&quality=lossless&width=682&height=682"
-        width="24"
-        height="24"
-        alt= "Unity Logo"
-      />
+      <rect x="4" y="4" width="16" height="16" rx="2" ry="2" />
+      <circle cx={8} cy={16} r="3" />
+      
     </svg>
   );
 }
