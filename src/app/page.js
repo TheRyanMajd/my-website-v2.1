@@ -425,6 +425,7 @@ function UnityLogoIcon(props) {
         href="https://media.discordapp.net/attachments/360768769217527809/1190884724630093824/unitylogotransparent.png?ex=65a36cd3&is=6590f7d3&hm=1959bcf94480edf186daffe3c977075ac97caa9bebc98e8a50dd33eb938a151e&=&format=webp&quality=lossless&width=682&height=682"
         width="24"
         height="24"
+        alt= "Unity Logo"
       />
     </svg>
   );
