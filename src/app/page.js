@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 export default function Home() {
   return (
@@ -136,7 +137,7 @@ export default function Home() {
                   Contact Me for Access
                 </Link>
               </div>
-              <img
+              <Image
                 alt="Screenshot of EventCast℠"
                 className="mx-auto"
                 height="2"
@@ -159,7 +160,7 @@ export default function Home() {
                 </Link>
                 {/* https://theryanmajd.github.io/my-website/Resources/Images/javaChristmasProject.png */}
                 </div>
-              <img
+              <Image
                 alt="Screenshot of EventCast℠"
                 className="mx-auto"
                 height="2"
@@ -420,7 +421,7 @@ function UnityLogoIcon(props) {
       strokeLinejoin="round"
     >
       {/* Use the Unity logo image directly */}
-      <image
+      <Image
         href="https://media.discordapp.net/attachments/360768769217527809/1190884724630093824/unitylogotransparent.png?ex=65a36cd3&is=6590f7d3&hm=1959bcf94480edf186daffe3c977075ac97caa9bebc98e8a50dd33eb938a151e&=&format=webp&quality=lossless&width=682&height=682"
         width="24"
         height="24"
