@@ -1,11 +1,11 @@
 {
   "name": "v0-web-test",
   "version": "0.2.0",
-  "homepage": "https://theryanmajd.github.io/my-website-v2",
+  "homepage": "https://theryanmajd.github.io/v0-web-test",
   "private": true,
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build -b master",
+    "deploy": "gh-pages -d build",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
