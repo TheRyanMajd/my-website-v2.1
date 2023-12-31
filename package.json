@@ -1,7 +1,7 @@
 {
-  "name": "v0-web-test",
+  "name": "my-website-v2.1",
   "version": "0.2.0",
-  "homepage": "https://theryanmajd.github.io/v0-web-test",
+  "homepage": "https://theryanmajd.github.io/my-website-v2.1",
   "private": true,
   "scripts": {
     "predeploy": "npm run build",
