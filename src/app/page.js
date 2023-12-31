@@ -43,7 +43,7 @@ export default function Home() {
       <div className="text-center md:text-left col-span-1">
         <h1
           className="lg:leading-tighter text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl xl:text-[3.4rem] 2xl:text-[3.75rem]">
-          Ryan Majd's Portfolio
+          Ryan Majd&apos;s Portfolio
         </h1>
         <p className="mx-auto max-w-[700px] text-gray-400 md:text-xl mb-4">
         Ryan Majd, a tech-savvy CS student at the&nbsp; 
@@ -68,7 +68,7 @@ export default function Home() {
       <div className="mt-4 text-center md:text-right col-span-1"> 
       <h1
           className="lg:leading-tighter text-xl font-bold tracking-tighter sm:text-4xl md:text-3xl xl:text-[3rem] 2xl:text-[3rem]">
-          Glad You're Here!
+          Glad You&apos;re Here!
         </h1>
         <p className="mx-auto max-w-[700px] text-gray-400 md:text-xl mb-4">
         This is v2 of my site, which I built using Next.js, a React framework. I drew inspiration from&nbsp; 
@@ -77,7 +77,7 @@ export default function Home() {
             target="_blank"
             href="https://v0.dev">
             v0
-          </Link>, which is a generative UI system by Vercel powered by AI. I'm still working on it, so please excuse the mess! 🧹
+          </Link>, which is a generative UI system by Vercel powered by AI. I&apos;m still working on it, so please excuse the mess! 🧹
         </p>
        
         </div>
@@ -97,7 +97,7 @@ export default function Home() {
               className="mx-auto grid items-start gap-8 sm:max-w-4xl sm:grid-cols-1 md:gap-12 lg:max-w-5xl lg:grid-cols-2">
               <div className="grid gap-1">
                 <h3 className="text-lg font-bold">Balloon Pop Java Game</h3>
-                <p className="text-sm text-gray-400">This game uses Java's JavaFX Library where players can pop balloons that 
+                <p className="text-sm text-gray-400">This game uses Java&apos;s JavaFX Library where players can pop balloons that 
                 appear on the screen. It includes various features such as a main menu, playground mode, thirty-second mode, 
                 background music, and more!</p>
                 <Link
@@ -128,8 +128,8 @@ export default function Home() {
               <div className="grid gap-1">
                 <h3 className="text-lg font-bold">EventCast℠</h3>
                 <p className="text-sm text-gray-400">Integrates OpenWeatherMap and SeatGeek APIs to help users plan
-                their day. By retrieving the user's location, checking for events within a 20-mile radius, and providing the
-                day's weather forecast, the program offers a convenient tool for users to plan around both weather conditions
+                their day. By retrieving the user&apos;s location, checking for events within a 20-mile radius, and providing the
+                day&apos;s weather forecast, the program offers a convenient tool for users to plan around both weather conditions
                 and local events. For access to the GitHub repository, please contact directly to ensure the security of API keys.</p>
                 <Link
                   className="text-sm font-medium hover:underline underline-offset-4 text-gray-300"
@@ -152,7 +152,7 @@ export default function Home() {
               className="mx-auto grid items-start gap-8 sm:max-w-4xl sm:grid-cols-1 md:gap-12 lg:max-w-5xl lg:grid-cols-2">
               <div className="grid gap-1">
                 <h3 className="text-lg font-bold">My 2022 Christmas List</h3>
-                <p className="text-sm text-gray-400">This project was created using what I learned in AP Computer Science A and UGA's Introduction to Computing class (CSCI 1301) to make a silly program that assists in providing gift choices from my family!</p>
+                <p className="text-sm text-gray-400">This project was created using what I learned in AP Computer Science A and UGA&apos;s Introduction to Computing class (CSCI 1301) to make a silly program that assists in providing gift choices from my family!</p>
                 <Link
                   className="text-sm font-medium hover:underline underline-offset-4 text-gray-300"
                   href="https://github.com/RyanMajd/Projects/blob/main/ChristmasList.java">
